@@ -1,0 +1,101 @@
+.container{
+width: 100%;
+background-color: black;
+padding: 10px;
+}
+.structure{
+    justify-content: center;
+}
+.container h1{
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    animation-delay: 1s;
+}
+/*head*/
+.container .structure header{
+ width: 100%;
+display: flex;
+justify-content: center;
+
+}
+.container .structure header .head1{
+    background-color: rgb(96, 140, 160);
+    width: 200px;
+    height: 150px;
+    border-radius: 100px 100px 0 0;
+   margin-bottom: 10px;
+   transition: width 2s;
+   position: relative;
+}
+
+.structure header .head1:hover{
+    width: 300px;
+}
+
+
+/*left hand*/
+.structure section .left{
+    background-color: rgb(96, 140, 160);
+    width: 30px;
+    height: 100px;
+    border-radius: 40px 40px 40px 40px;
+}
+.structure section .left:hover{
+    transform: rotate(20deg);
+}
+
+/*section*/
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+/*Main*/
+.structure section .main{
+    background-color: rgb(96, 140, 160);
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 35px 35px;
+    margin: 0 10px 0 10px;
+}
+
+/*right hand*/
+.structure section .right{
+    background-color: rgb(96, 140, 160);
+    width: 30px;
+    height: 100px;
+    border-radius: 40px 40px 40px 40px;
+}
+.structure section .right:hover{
+    transform: rotate(340deg);
+}
+/*lower*/
+.lower{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+}
+.structure .lower .lower1{
+    background-color:  rgb(96, 140, 160);
+    width: 30px;
+    height: 80px;
+    border-radius: 0px 0px 40px 40px;
+    margin: 0 30px ;
+}
+.structure .lower .lower1:hover{
+    transform: rotate(25deg);
+}
+.structure .lower .lower2{
+    background-color:  rgb(96, 140, 160);
+    width: 30px;
+    height: 80px;
+    border-radius: 0px 0px 40px 40px;
+    margin: 0 30px ;
+}
+.structure .lower .lower2:hover{
+    transform: rotate(335deg);
+}
